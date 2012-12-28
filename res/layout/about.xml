@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dip"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:text="Hi! I am Mehmet Ali Akyol. Thanks for downloading my application. It is my first application. Even though I try to make it neat and error free, there might still be some problems, if you encounter any of them please let me know and I will quickly fix it! Here is my real email address: mehmetali.akyol@gmail.com :) Please do not hesitate to contact me, even just say &apos;Hello&apos; as I love getting emails :)
+" />
+    </LinearLayout>
+
+</LinearLayout>
